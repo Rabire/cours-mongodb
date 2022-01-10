@@ -47,4 +47,7 @@ Au final je suis passé sur Compass
 ![image](https://user-images.githubusercontent.com/49844846/148760043-934e4fbd-d096-4336-8660-a9211717ee4a.png)
 
 8. Ecrivez une requête MongoDB pour trouver les restaurants qui ont obtenu un score supérieur à 90. 
+![image](https://user-images.githubusercontent.com/49844846/148761557-726f3224-7dbf-4a7b-9c3c-32f45a52fda8.png)
+
+9. Ecrivez une requête MongoDB pour trouver les restaurants qui ont obtenu un score supérieur à 80 mais inférieur à 100. 
 
