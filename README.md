@@ -82,6 +82,8 @@ J'ai donc créer mon propre graphique sur Charts :
 ![image](https://user-images.githubusercontent.com/49844846/148931483-affff60b-bef1-468f-8f33-a9e060a4282a.png)
 ![image](https://user-images.githubusercontent.com/49844846/148931503-10d688dd-f3b7-409a-888c-ef31a5568988.png)
 
+Il est plus simple de comprendre nos données de cette facon qu'n lisant 2 gros chiffres à virgule.
+
 # Aggrégation
 
 TODO:
