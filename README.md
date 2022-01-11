@@ -52,4 +52,5 @@ Mot de passe: root
 ![image](https://user-images.githubusercontent.com/49844846/148761557-726f3224-7dbf-4a7b-9c3c-32f45a52fda8.png)
 
 9. Ecrivez une requête MongoDB pour trouver les restaurants qui ont obtenu un score supérieur à 80 mais inférieur à 100. 
+![image](https://user-images.githubusercontent.com/49844846/148930822-7bc906b6-3295-4d2a-9ce6-da0ae8b41020.png)
 
