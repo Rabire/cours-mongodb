@@ -54,3 +54,35 @@ Mot de passe: root
 9. Ecrivez une requête MongoDB pour trouver les restaurants qui ont obtenu un score supérieur à 80 mais inférieur à 100. 
 ![image](https://user-images.githubusercontent.com/49844846/148930822-7bc906b6-3295-4d2a-9ce6-da0ae8b41020.png)
 
+# Requête géospatiale
+
+Elles utilisent les types de données géométriques spécialisées (point, line, multiline, polygon...)
+Elles expriment des relations entre les types de données géométriques, tels que distance, equals, touches, overlaps, disjoint etc…
+
+À l'aide des requêtes géospatiales on peut exécuter les opérations comme:
+Trouver la distance entre deux points.
+Vérifier si une zone (polygone) en contient une autre.
+Vérifier si une ligne croise ou touche une autre ligne ou un autre polygone.
+
+GeoJSON est un format ouvert d’échange de données géospatiales utilisant la norme JSON représentant des entités géographiques simples et leurs attributs non spatiaux. https://docs.mongodb.com/manual/reference/geojson/
+
+L’onglet schema de MongoDBCompass nous permet de visualiser des des données géographiques :
+![image](https://user-images.githubusercontent.com/49844846/148931334-a82589c4-42da-4757-971a-0f1830a0340e.png)
+
+Nous aimerions utiliser des géodata pour visualiser la position géographique d’une liste d’utilisateurs sur une carte.
+
+Nous avons importé une collection d’utilisateurs mockés, chaque objet utilisateur à une adresse contenant des coordonnés GPS (longitude et lagitude).
+
+Compass n’arrivait pas à interpréter les données qui avait sous forme de carte :
+![image](https://user-images.githubusercontent.com/49844846/148931399-2384e162-4f8e-4f56-bedf-9797b0142426.png)
+
+J'ai donc créer mon propre graphique sur Charts :
+![image](https://user-images.githubusercontent.com/49844846/148931483-affff60b-bef1-468f-8f33-a9e060a4282a.png)
+![image](https://user-images.githubusercontent.com/49844846/148931503-10d688dd-f3b7-409a-888c-ef31a5568988.png)
+
+# Aggrégation
+
+TODO:
+
+
+
