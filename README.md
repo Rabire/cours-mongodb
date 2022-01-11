@@ -1,29 +1,27 @@
-![image](https://user-images.githubusercontent.com/49844846/148751895-c295cc19-e880-4569-ab95-e9c10d22c983.png)
-invitation au projet 
+# Création de la DB
 
+## Invitation des autres membres de l’équipe via leur adresse email
+![image](https://user-images.githubusercontent.com/49844846/148928790-9a930f34-0b69-4047-989e-1e383f81ade9.png)
 
-## Création de la DB
-![image](https://user-images.githubusercontent.com/49844846/148752441-862b85ac-9b18-4d52-9a36-3fa82343e649.png)
-![image](https://user-images.githubusercontent.com/49844846/148752469-45389ae2-bdae-41e0-8e54-e683c3ebe281.png)
-![image](https://user-images.githubusercontent.com/49844846/148752765-da8f2255-32a3-4322-9716-68fb81eb3357.png)
-![image](https://user-images.githubusercontent.com/49844846/148752812-99ee33b8-ea36-4a5c-a079-c8319453fbcf.png)
-![image](https://user-images.githubusercontent.com/49844846/148753028-c518ecec-eb1b-4cae-a773-5a60df5a0554.png)
-root root
+## Création de la base de données
+![image](https://user-images.githubusercontent.com/49844846/148929098-2e538aa6-8400-478b-82ee-67176935d1ae.png)
+![image](https://user-images.githubusercontent.com/49844846/148929117-6adaa852-4181-48b7-b57e-e6b21e230cf6.png)
 
-connect locally to db
-![image](https://user-images.githubusercontent.com/49844846/148753665-c0186995-828c-4223-9c4f-e8e3a9d90c5f.png)
-![image](https://user-images.githubusercontent.com/49844846/148753686-a7baed42-1c55-413b-9217-ad548f419968.png)
-![image](https://user-images.githubusercontent.com/49844846/148753735-5d2251d3-51fd-4ef6-a2fd-c9d47ffd75bc.png)
+## Ajout d’un utilisateur
+![image](https://user-images.githubusercontent.com/49844846/148929145-dd350431-d908-46cb-8f56-ec15858bb7dd.png)
+`Identifiant: root
+Mot de passe: root`
 
-![image](https://user-images.githubusercontent.com/49844846/148754018-5646dc93-ecae-481b-b38e-13c5820a938e.png)
-![image](https://user-images.githubusercontent.com/49844846/148754279-2ca56aae-99d7-4591-88c3-1f37167db86a.png)
-adding to path
+## Whiteliste des adresses IP des membres du projet
+![image](https://user-images.githubusercontent.com/49844846/148929349-e709fc45-d7a8-4d0d-a89c-5a92ab8128a7.png)
+![image](https://user-images.githubusercontent.com/49844846/148929366-5b9e4a6b-9091-40a4-8947-9ffcc155af06.png)
 
-![image](https://user-images.githubusercontent.com/49844846/148754484-b0612caa-3d07-4077-bc9d-afdf255e6f48.png)
-it doesnt works
-![image](https://user-images.githubusercontent.com/49844846/148756024-06e093ae-9b81-40ec-8a99-0fec5cf99cc0.png)
+## Tentative de connexion avec MangoDB Shell
+(Finalement je suis passé sur Compass)
+![image](https://user-images.githubusercontent.com/49844846/148929445-1e6eead2-cba8-4200-961c-6b37bef6cb85.png)
+![image](https://user-images.githubusercontent.com/49844846/148929456-24a74ab3-9618-45a8-8bad-51380051908c.png)
 
-Au final je suis passé sur Compass
+# Questionnaire initiation aux requettes
 
 1. Ecrivez une requête MongoDB pour afficher tous les documents dans les restaurants de la collection
 `{}`
