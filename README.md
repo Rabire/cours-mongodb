@@ -87,6 +87,7 @@ Il est possible d'étudider cela pour prendre des décisions commeciales ou mark
 
 Dans l'exemple de notre restaurant, visualiser la position de nos restaurants et de nos clients peut nous permettre de créer des enseignes plus proches de nos clients.
 
+Localiser précisément nos clients nous permet aussi de se faire une idée de qui est notre clientelle. (Age, classe sociale, langue parlée...)
 
 # Aggrégation
 
