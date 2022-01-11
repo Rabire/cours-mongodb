@@ -83,10 +83,17 @@ J'ai donc créer mon propre graphique sur Charts :
 ![image](https://user-images.githubusercontent.com/49844846/148931503-10d688dd-f3b7-409a-888c-ef31a5568988.png)
 
 Il est plus simple de comprendre nos données de cette facon qu'n lisant 2 gros chiffres à virgule.
+Il est possible d'étudider cela pour prendre des décisions commeciales ou marketing.
+
+Dans l'exemple de notre restaurant, visualiser la position de nos restaurants et de nos clients peut nous permettre de créer des enseignes plus proches de nos clients.
+
 
 # Aggrégation
 
+Les requêtes d’agrégation permettent de regrouper, manipuler ou associer des données.
 documentation: https://docs.mongodb.com/manual/aggregation/
+
+
 
 
 
