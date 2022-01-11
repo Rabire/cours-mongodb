@@ -90,6 +90,7 @@ Dans l'exemple de notre restaurant, visualiser la position de nos restaurants et
 # Aggrégation
 
 Les requêtes d’agrégation permettent de regrouper, manipuler ou associer des données.
+
 documentation: https://docs.mongodb.com/manual/aggregation/
 
 Première requette d'agréagation:
