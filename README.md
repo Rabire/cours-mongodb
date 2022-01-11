@@ -74,9 +74,11 @@ Nous aimerions utiliser des géodata pour visualiser la position géographique d
 Nous avons importé une collection d’utilisateurs mockés, chaque objet utilisateur à une adresse contenant des coordonnés GPS (longitude et lagitude).
 
 Compass n’arrivait pas à interpréter les données qui avait sous forme de carte :
+
 ![image](https://user-images.githubusercontent.com/49844846/148931399-2384e162-4f8e-4f56-bedf-9797b0142426.png)
 
 J'ai donc créer mon propre graphique sur Charts :
+
 ![image](https://user-images.githubusercontent.com/49844846/148931483-affff60b-bef1-468f-8f33-a9e060a4282a.png)
 ![image](https://user-images.githubusercontent.com/49844846/148931503-10d688dd-f3b7-409a-888c-ef31a5568988.png)
 
