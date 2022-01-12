@@ -107,8 +107,11 @@ Elle n'ont pas d'impacte sur les données, Ce sont des collections en lecture se
 On ne peut pas rennommer de vue, il faut la detruire. Il est possible d'utiliser des indexes dans uen vue.
 Toutes les données dans une vue sont publiques.
 
-`db.createView('nomDelaVue', 'restaurants', [{$project: {"": 0}}])`
+`db.createView('nomDeLaVue', 'restaurants', [{$project: {"": 0}}])`
 `db.getCollectionInfos({name:"restaurants})`
+
+Appeler une vue:
+`db."nomDeLaVue.find()`
 
 
 # Base en commun:
