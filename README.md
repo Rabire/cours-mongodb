@@ -96,20 +96,20 @@ documentation: https://docs.mongodb.com/manual/aggregation/
 Première requette d'agréagation:
 ![image](https://user-images.githubusercontent.com/49844846/148966306-171e31cd-fe08-4203-a34b-a8caae367ad2.png)
 
-Index:
+# Index
   def TODO F10
   TODO: Comment un index peut ralentir une requete ?
 
-Vues:
-Table virtuelle qui n'existe pas réellement
-Elle constitue des requettes complexes
-Collection en lecture seule. Peut utiliser des indexs pour acceleter une requette.
-On ne peut pas rennommer de vue, il faut la detruire.
+# Vues
+
+Une vue est une table virtuelle qui n'existe pas réellement. Elle constitue souevnt des requettes complexes.
 Elle n'ont pas d'impacte sur les données, Ce sont des collections en lecture seule.
+On ne peut pas rennommer de vue, il faut la detruire. Il est possible d'utiliser des indexes dans uen vue.
 
 `db.createView('nomDelaVue', 'source: collection ou autre vue')`
 
-Base en commun:
+
+# Base en commun:
 Requettes TODO:
 
 Liste de clients
