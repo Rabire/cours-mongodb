@@ -5,7 +5,6 @@
 
 ## Création de la base de données
 ![image](https://user-images.githubusercontent.com/49844846/148929098-2e538aa6-8400-478b-82ee-67176935d1ae.png)
-![image](https://user-images.githubusercontent.com/49844846/148929117-6adaa852-4181-48b7-b57e-e6b21e230cf6.png)
 
 ## Ajout d’un utilisateur
 ![image](https://user-images.githubusercontent.com/49844846/148929145-dd350431-d908-46cb-8f56-ec15858bb7dd.png)
@@ -28,13 +27,14 @@ Mot de passe: root
 # Questionnaire initiation aux requettes
 
 1. Ecrivez une requête MongoDB pour afficher tous les documents dans les restaurants de la collection
+
 `{}`
 
 2. Ecrivez une requête MongoDB pour afficher les champs restaurant_id, name, borough et cuisine pour tous les documents de la collection restaurant.
 ![image](https://user-images.githubusercontent.com/49844846/148758701-9c03ca71-e2a5-4e4b-bc7f-fc66e23ffecc.png)
 
 3. Ecrivez une requête MongoDB pour afficher les champs restaurant_id, name, borough et cuisine, mais exclure le champ _id pour tous les documents de la collection restaurant. 
-![image](![image](https://user-images.githubusercontent.com/49844846/148759425-0dfae8e0-906a-467e-95f8-f2251bcc9028.png))
+![image](https://user-images.githubusercontent.com/49844846/148759425-0dfae8e0-906a-467e-95f8-f2251bcc9028.png)
 
 4. Ecrivez une requête MongoDB pour afficher les champs restaurant_id, nom, arrondissement et code postal, mais excluez le champ _id pour tous les documents de la collection restaurant.
 ![image](https://user-images.githubusercontent.com/49844846/148759820-124214c4-ac47-4645-a086-15606b80be0a.png)
