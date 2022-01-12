@@ -99,8 +99,7 @@ Première requette d'agréagation:
 ![image](https://user-images.githubusercontent.com/49844846/148966306-171e31cd-fe08-4203-a34b-a8caae367ad2.png)
 
 # Index
-  def TODO F10
-  TODO: Comment un index peut ralentir une requete ?
+Restocque une partie des données en fonction d'un champ selon un tri. Ce qui permet de scanner les collection et acceder à une donnée plus rapidement.
 
 # Vues
 
@@ -110,6 +109,7 @@ On ne peut pas rennommer de vue, il faut la detruire. Il est possible d'utiliser
 Toutes les données dans une vue sont publiques.
 
 `db.createView('nomDeLaVue', 'restaurants', [{$project: {"": 0}}])`
+
 `db.getCollectionInfos({name:"restaurants})`
 
 Appeler une vue:
