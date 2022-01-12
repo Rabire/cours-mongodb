@@ -105,8 +105,10 @@ Première requette d'agréagation:
 Une vue est une table virtuelle qui n'existe pas réellement. Elle constitue souevnt des requettes complexes.
 Elle n'ont pas d'impacte sur les données, Ce sont des collections en lecture seule.
 On ne peut pas rennommer de vue, il faut la detruire. Il est possible d'utiliser des indexes dans uen vue.
+Toutes les données dans une vue sont publiques.
 
-`db.createView('nomDelaVue', 'source: collection ou autre vue')`
+`db.createView('nomDelaVue', 'restaurants', [{$project: {"": 0}}])`
+`db.getCollectionInfos({name:"restaurants})`
 
 
 # Base en commun:
