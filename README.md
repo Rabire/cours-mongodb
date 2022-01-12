@@ -87,6 +87,8 @@ Il est possible d'étudider cela pour prendre des décisions commeciales ou mark
 
 Dans l'exemple de notre restaurant, visualiser la position de nos restaurants et de nos clients peut nous permettre de créer des enseignes plus proches de nos clients. Localiser précisément nos clients nous permet aussi de se faire une idée de qui est notre clientelle. (Age, classe sociale, langue parlée...)
 
+// TODO: faire une requette Geo
+
 # Aggrégation
 
 Les requêtes d’agrégation permettent de regrouper, manipuler ou associer des données.
@@ -104,7 +106,7 @@ Première requette d'agréagation:
 
 Une vue est une table virtuelle qui n'existe pas réellement. Elle constitue souevnt des requettes complexes.
 Elle n'ont pas d'impacte sur les données, Ce sont des collections en lecture seule.
-On ne peut pas rennommer de vue, il faut la detruire. Il est possible d'utiliser des indexes dans uen vue.
+On ne peut pas rennommer de vue, il faut la detruire. Il est possible d'utiliser des indexes dans une vue.
 Toutes les données dans une vue sont publiques.
 
 `db.createView('nomDeLaVue', 'restaurants', [{$project: {"": 0}}])`
@@ -129,13 +131,4 @@ Nombre de passage par client par restaurant
 Influence par horaires
   Augmenter le nombre d'employers aux horaires de forte influence
   
-
-
-
-
-
-
-
-
-
 
