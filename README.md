@@ -149,7 +149,11 @@ db.clients.aggregate([
 ```
 Maintenant, en passant `null` à `_id` j'ai la moyenne d'age de tout mes clients
 
-  Liste de emails pour les compagnes d'emailing
+Liste de emails pour les compagnes d'emailing:
+```
+db.clients.find({}, { email: 1 })
+```
+
 Distance moyenne des clients à chaque resaurants
   Créer des restaurants plus proche des clients
   
