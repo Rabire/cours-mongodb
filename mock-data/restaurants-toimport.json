@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Tacos Story Rāmsar",
+    "address": {
+      "street": "01 Jenifer Alley",
+      "longitude": 50.6430658,
+      "latitude": 36.9268274
+    },
+    "phone": "517-526-7095",
+    "email": "ramsar@tacos-story.com",
+    "manager_id": 47
+  },
+  {
+    "id": 2,
+    "name": "Tacos Story Kliteh",
+    "address": {
+      "street": "64 Hudson Way",
+      "longitude": 111.7033357,
+      "latitude": -7.1293143
+    },
+    "phone": "550-430-8813",
+    "email": "kliteh@tacos-story.com",
+    "manager_id": 23
+  },
+  {
+    "id": 3,
+    "name": "Tacos Story Piippola",
+    "address": {
+      "street": "1975 Merry Hill",
+      "longitude": 25.9658805,
+      "latitude": 64.1775401
+    },
+    "phone": "381-413-6317",
+    "email": "piippola@tacos-story.com",
+    "manager_id": 42
+  },
+  {
+    "id": 4,
+    "name": "Tacos Story Delmiro Gouveia",
+    "address": {
+      "street": "1 Summer Ridge Way",
+      "longitude": -37.9926586,
+      "latitude": -9.3863122
+    },
+    "phone": "464-680-6691",
+    "email": "delmiro@tacos-story.com",
+    "manager_id": 97
+  },
+  {
+    "id": 5,
+    "name": "Tacos Story Marte",
+    "address": {
+      "street": "44 Dixon Trail",
+      "longitude": 13.8277397,
+      "latitude": 12.3640592
+    },
+    "phone": "447-904-3405",
+    "email": "marte@tacos-story.com",
+    "manager_id": 87
+  },
+  {
+    "id": 6,
+    "name": "Tacos Story Jiefu",
+    "address": {
+      "street": "93 Glacier Hill Court",
+      "longitude": 121.512981,
+      "latitude": 31.235029
+    },
+    "phone": "251-209-0777",
+    "email": "jiefu@tacos-story.com",
+    "manager_id": 32
+  },
+  {
+    "id": 7,
+    "name": "Tacos Story San Esteban",
+    "address": {
+      "street": "71840 Rockefeller Trail",
+      "longitude": 121.017148,
+      "latitude": 14.5570389
+    },
+    "phone": "206-638-2728",
+    "email": "san-esteban@tacos-story.com",
+    "manager_id": 41
+  },
+  {
+    "id": 8,
+    "name": "Tacos Story Québec",
+    "address": {
+      "street": "37414 Muir Avenue",
+      "longitude": -71.2196569,
+      "latitude": 46.7530428
+    },
+    "phone": "413-273-6308",
+    "email": "quebec@tacos-story.com",
+    "manager_id": 94
+  },
+  {
+    "id": 9,
+    "name": "Tacos Story Manjiang",
+    "address": {
+      "street": "890 Vermont Circle",
+      "longitude": 127.596645,
+      "latitude": 41.949852
+    },
+    "phone": "484-544-9203",
+    "email": "manjiang@tacos-story.com",
+    "manager_id": 89
+  },
+  {
+    "id": 10,
+    "name": "Tacos Story Queimados",
+    "address": {
+      "street": "26547 Little Fleur Court",
+      "longitude": -43.5522256,
+      "latitude": -22.7106685
+    },
+    "phone": "742-764-9522",
+    "email": "queimados@tacos-story.com",
+    "manager_id": 33
+  }
+]

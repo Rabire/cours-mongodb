@@ -1,0 +1,5 @@
+use('Restaurants');
+
+db.clients.find({}, {
+    email: 1
+})

@@ -1,0 +1,14 @@
+use('Restaurants');
+
+// Récupération des visites par visiteurs
+// TODO: count visits
+db.clients.aggregate({
+   $lookup:
+    {
+        from: "visits",
+        localField: "id",
+        foreignField: "visitor_id",
+        as: "visits",
+})
+
+
