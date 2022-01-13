@@ -16,8 +16,6 @@ Sur l'année 2021, ces restaurants ont réaliser 1000 de 200 clients differents.
 
 ### Annalyse géographique
 
-TODO: Distance entre les clients et le resaurant
-
 L’onglet schema de MongoDBCompass nous permet de visualiser des des données géographiques :
 ![image](https://user-images.githubusercontent.com/49844846/148931334-a82589c4-42da-4757-971a-0f1830a0340e.png)
 
@@ -32,6 +30,23 @@ J'ai donc créer mon propre graphique sur Charts :
 ![image](https://user-images.githubusercontent.com/49844846/148931503-10d688dd-f3b7-409a-888c-ef31a5568988.png)
 
 Il est plus simple de comprendre nos données de cette facon qu'en lisant 2 gros chiffres à virgule.
+
+```
+db.restaurants.aggregate([
+    { "$geoNear": {
+        "near": {
+            "type": "Point",
+            "coordinates": [ -81.093699, 32.074673 ]
+        },
+        "maxDistance": 500 * 1609,
+        "spherical": true,
+        "distanceField": "distance",
+        "distanceMultiplier": 0.000621371
+    }}
+]).pretty()
+```
+
+Requette permettant de calculer la distance depuis un point.
 
 Dans l'exemple de nos restaurants, visualiser la position de nos restaurants et de nos clients peut nous permettre de créer des enseignes plus proches de nos clients.
 
@@ -108,3 +123,13 @@ Cette requette nous permet de connaître
 
 - Augmenter le nombre d'employers aux horaires de forte influence.
 - Mettre en place des tarifs differents à certains horaires (Happy Hour par exemple).
+
+```
+db.visits.count({visit_time: {$regex: /^20/ }})
+```
+
+```
+db.visits.count({visit_time: {$regex: /^12/ }})
+```
+
+Les 2 requettes au dessus permettent de connaitre le combre de visites entre 20h et 21h et le nombre de visites entre 12h et 13h

@@ -1,0 +1,15 @@
+use('Restaurants');
+
+
+// db.visits.aggregate([
+//     {
+//         $group: {
+//             _id: "$visit_time",
+//             hour: {$regex: "/^20/"}
+//         }
+//     }
+// ])
+
+db.visits.count({visit_time: {$regex: /^20/ }})
+db.visits.count({visit_time: {$regex: /^12/ }})
+
