@@ -119,8 +119,36 @@ Appeler une vue:
 # Base en commun:
 Requettes TODO:
 
-Liste de clients
-  Moyenne d'age des clients
+### Informations sur nos clients
+![image](https://user-images.githubusercontent.com/49844846/149315473-b7555e69-06a8-41fc-96e0-292d6f2140df.png)
+Utilisation de MongoDB sur VS Code
+
+```
+use('Restaurants');
+
+db.clients.aggregate([
+    {
+        $group: {
+            _id: "$gender",
+            agerageAge: {$avg: "$age"}
+        }
+    }
+])
+```
+Dans cette requette, je groupe les cmlients par genre, puis je fais une moyenne d'age par genre.
+
+```
+db.clients.aggregate([
+    {
+        $group: {
+            _id: null,
+            agerageAge: {$avg: "$age"}
+        }
+    }
+])
+```
+Maintenant, en passant `null` à `_id` j'ai la moyenne d'age de tout mes clients
+
   Liste de emails pour les compagnes d'emailing
 Distance moyenne des clients à chaque resaurants
   Créer des restaurants plus proche des clients
@@ -144,7 +172,9 @@ Cela pourrait permettre de:
 - Demander un avis sur leur experience chez nous par email.
 - Offrir des promotions à nos clients les plus fidèles.
 
-Influence par horaires
-  Augmenter le nombre d'employers aux horaires de forte influence
+### Influence par horaires
+Cette requette nous permet de connaître 
+- Augmenter le nombre d'employers aux horaires de forte influence.
+- Mettre en place des tarifs differents à certains horaires (Happy Hour par exemple).
   
 
