@@ -124,10 +124,26 @@ Liste de clients
   Liste de emails pour les compagnes d'emailing
 Distance moyenne des clients à chaque resaurants
   Créer des restaurants plus proche des clients
-Nombre de passage par client par restaurant
-  Relancer les clients qui ne sont jamais revenus
-  Demander un avis sur leur experience
-  Offrir des promotions aux clients les plus fidèles
+  
+### Nombre de visites par client:
+```
+db.clients.aggregate({
+   $lookup:
+    {
+        from: "visits",
+        localField: "id",
+        foreignField: "visitor_id",
+        as: "visits"
+    }
+})
+```
+Cette requette nous permet de savoir quand et quel client est venu dans notre restaurant.
+
+Cela pourrait permettre de:
+- Relancer les clients qui ne sont jamais revenus consommer chez nous.
+- Demander un avis sur leur experience chez nous par email.
+- Offrir des promotions à nos clients les plus fidèles.
+
 Influence par horaires
   Augmenter le nombre d'employers aux horaires de forte influence
   
